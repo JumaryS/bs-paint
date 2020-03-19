@@ -13,16 +13,20 @@ function colorChange(){
 }
 
 
-let square = document.querySelectorAll('.square');
+let square = 
+document.querySelectorAll('.square');
 
-const palette = document.querySelectorAll('.palette-color');
+const palette = 
+document.querySelectorAll('.palette-color');
 
-for(const item of palette){
-    item.addEventListener('click', brushChange);
+for(const paint of palette){
+    paint.addEventListener
+    ('click', brushChange);
 }
 
-for(const item of square){
-    item.addEventListener('click', colorChange);
+for(const brush of square){
+    brush.addEventListener
+    ('click', colorChange);
 }
 
 const canvas = document.querySelector('.canvas');
