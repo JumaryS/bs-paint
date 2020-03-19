@@ -57,7 +57,7 @@
   grid-template-columns: repeat(10, 1fr);
   height: 500px;
   width: 500px;
-  border: 2px solid black;
+  border: 2px solid rgb(4, 121, 255);
 }
 
 .square {
@@ -67,28 +67,28 @@
 }
 
 .color-1 {
-  background-color: orangered;
+  background-color: rgb(250, 128, 83);
 
 }
 
 .color-2 {
-  background-color: green;
+  background-color: rgb(122, 224, 122);
 
 }
 
 .color-3 {
-  background-color: blue;
+  background-color: rgb(164, 164, 246);
 
 }
 
 .color-4 {
-  background-color: red;
+  background-color:rgb(250, 80, 80);
 
 }
 
 .color-5 {
 
-  background-color:purple;
+  background-color:rgb(211, 76, 211);
 
 }
 
