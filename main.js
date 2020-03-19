@@ -20,16 +20,12 @@ const palette =
 document.querySelectorAll('.palette-color');
 
 for(const paint of palette){
-    paint.addEventListener
-    ('click', brushChange);
+    paint.addEventListener('click', brushChange);
 }
 
 for(const brush of square){
-    brush.addEventListener
-    ('click', colorChange);
+    brush.addEventListener('click', colorChange);
 }
 
-const canvas = document.querySelector('.canvas');
 
-canvas.style.gridTemplateColumns = 'repeat(10, 1fr)';
-canvas.style.gridTemplateRows = 'repeat(10, 1fr)';
+
